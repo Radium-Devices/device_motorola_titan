@@ -26,3 +26,7 @@ PRODUCT_NAME := full_titan
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := titan
 PRODUCT_MANUFACTURER := motorola
+
+
+	PRODUCT_PROPERTY_OVERRIDES += \
+	    ro.product.device=titan
